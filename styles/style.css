@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0; 
+    font-family: -apple-system, BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;        
+}
+
+body{
+    background-color: #000000;
+    background-image: linear-gradient(155deg, #000000 26%, #50206a 71%, #3500ff 100%);
+}
+
+header, #WHO{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+header img{
+    margin: 30px;
+    width: 98px;
+    height: 20px;
+}
+
+
+
+h2{
+    font-size: 35px;
+}
+
+#CENTRAL{
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+}
+
+.PIC1, .PIC2, .PIC3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 60px 25px;
+    transition: 0.3s linear;
+    
+
+}
+
+.PIC1:hover, .PIC2:hover, .PIC3:hover{
+    transform: scale(1.2,1.2);
+
+
+}
+
+
+
+
+#CENTRAL img{ 
+    
+    border-radius: 50%;
+}
+
+#BUTTONS{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px 5px ;
+    
+}
+
+button:hover{
+    background-color: rgba(0, 0, 0, .9);
+    border: 1px solid rgb(92,0,197);
+    transition: 0.1s;
+}
+
+
+button{
+    border: 1px solid rgba(39, 38, 52, 0.7);
+    background-color: rgba(39, 38, 52, 0.7);
+    color: white;
+    font-weight: bold;
+    padding: 8px 18px;
+    border-radius: 5px;
+    border-color: transparent;
+    margin: 3px;
+}
+
+footer{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+a, p,h1, h2{
+    color: white;
+    font-weight: 500;
+}
+a{
+   
+    font-size: 12px;
+    font-weight: bold;
+    
+}
+
+#ADM{
+    
+    width: 160px;
+    height: 30px;
+    border-radius: 3px;
+    text-align: center;
+    padding: 1px;
+
+}
+
+#ADM:hover{
+    background-color: rgba(199,166,211,.3)
+}
+
+.IMAGES{
+    height: 115px;
+    width: 115px;
+    padding: 4.5px;
+    border-radius: 100px;
+    background:  linear-gradient(43deg, #C850C0 0%, #536dea 96%);
+        
+}
+
+.INSIDE-IMG{
+    height: 105px;
+    width: 105px;
+   border-radius: 100px;
+    background-color: #0c1b24;
+    background-image: linear-gradient(258deg, #111031 0%, #3e2558 100%);  
+}
+
+p{   
+    margin: 30px;
+}
+
+
+
+
